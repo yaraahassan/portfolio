@@ -17,7 +17,7 @@ const About = () => {
 
            </div>
            {/* info */}
-           <div className="space-y-8 py-7">
+           <div className="space-y-8 py-8">
                 <p className=" text-2xl font-semibold ">A passionate developer who loves to create</p>
                 <p className=" text-muted-foreground leading-relaxed">I am a Front-End Developer and a Computer Engineering graduate with a strong passion for programming and web development. I specialize in building modern, responsive, and user-friendly websites using the latest front-end technologies.</p>
                 <p className=" text-muted-foreground leading-relaxed">I enjoy transforming creative designs into clean, efficient, and high-quality code, and I am always eager to learn new technologies and improve my skills. My goal is to create engaging digital experiences that combine performance, usability, and elegant design.</p>
