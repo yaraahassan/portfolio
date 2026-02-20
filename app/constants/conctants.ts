@@ -16,7 +16,12 @@ import {
   Code2,
   Globe,
   GitBranch,
-  Github
+  Github,
+  Mail,
+  Phone,
+  MapPin,
+  Linkedin,
+  Twitter
 } from "lucide-react";
 
 export const navLinks=[
@@ -83,9 +88,44 @@ export const projects=[
     }
 ]
     
+export const contacts=[
+    {icon:Mail,
+    label:"Email",
+    value:"yarah@gmail.com",
+    href:"mailto:yarah8215@gmail.com"
+    },
+    
+    {icon:Phone ,
+    label:"Phone",
+    value:"+20 01559323440",
+    href:"tel:+20 01559323440"
+    },
+    
+    {icon:MapPin ,
+    label:"Location",
+    value:"Egypt ,Mansoura",
+    href:"#"
+    },
 
+]
 
-
+export const socialLinks=[
+    {
+        icon:Github,
+        href:"https://github.com/yaraahassan/",
+        label:"Github"
+    },
+   {
+        icon:Linkedin,
+        href:"https://www.linkedin.com/feed/",
+        label:"LinkedIn"
+    },
+      {
+        icon:Twitter,
+        href:"https://www.twitter.com",
+        label:"Twitter"
+    },
+]
 
 
 
