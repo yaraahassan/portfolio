@@ -28,7 +28,7 @@ const ProjectCard = ({img,title,desc,lang,demoUrl,gitUrl}:ProjectCardProps) => {
             {/* desc */}
             <p className='text-muted-foreground text-sm line-clamp-2'>{desc}</p>
             {/* lang */}
-            <div className='flex flex-wrap gap-3 '>
+            <div className='flex flex-wrap gap-2 '>
                 {
                     lang.map((language)=>(
                         <span key={language} className='text-xs md:text-sm bg-linear-to-r from-[#0096c7] to-[#166088] px-3 py-2 text-white rounded-2xl '>{language}</span>
