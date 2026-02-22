@@ -7,11 +7,11 @@ import { Button } from "../ui/button"
 
 const Contact = () => {
   return (
-    <div className="py-16 bg-gray-100 dark:bg-gray-950">
+    <div className="py-16 bg-[#f4f4fe] dark:bg-gray-950">
       <SectionTitle title_1="Get In" title_2="Touch" desc="Have a project in mind or just want to say hi? I'd love to hear from you."/>
       <div className="w-[80%] mx-auto grid lg:grid-cols-2 gap-12 pt-16">
          {/* contact info */}
-          <div className="px-4">
+          <div  data-aos="fade-right" data-aos-delay="150" data-aos-anchor-placement="top-center" className="px-4">
             <div className="flex flex-col gap-6">
               <h1 className="font-semibold text-3xl">Let's talk</h1>
               <p className="text-muted-foreground text-md mb-6">I'am alaways open to discuss new projects ,creative ideas or opportunities to be part of your vision.</p>
@@ -58,7 +58,7 @@ const Contact = () => {
 
           </div>
           {/* contact form */}
-          <div className="">
+          <div  data-aos="fade-left" data-aos-delay="150" data-aos-anchor-placement="top-center" className="">
                 <form className="bg-white rounded-xl  p-8 space-y-8  dark:bg-gray-800">
                     <div className="grid md:grid-cols-2 gap-4">
                       {/* name */}

@@ -9,7 +9,7 @@ type openNavProps={
 }
 const Nav = ({openNav}:openNavProps) => {
   return (
-    <div className='flex items-center  fixed z-100  w-full h-[14vh] py-8 duration-200 transition-all shadow-md '>
+    <div className='flex items-center  fixed z-100  w-full h-[14vh] py-8 duration-200 transition-all shadow-md bg-white dark:bg-gray-800'>
         <div className='w-[90%] xl:w-[80%] mx-auto flex justify-between items-center h-full'>
                 <Logo/>
                 <div className='hidden lg:flex space-x-8  '>
@@ -21,7 +21,7 @@ const Nav = ({openNav}:openNavProps) => {
                 }
                 </div>
                 <div className='flex space-x-4 items-center'>
-                <button className='flex items-center bg-[#166088] text-white  font-bold px-8 py-3 rounded-xl dark:bg-[#0096c7]  '>
+                <button className='flex items-center bg-linear-to-r from-[#0096c7] to-[#166088] text-white  font-bold px-8 py-3 rounded-xl   '>
                       <ArrowDown />
                       <span>Download CV</span>
 
