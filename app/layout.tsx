@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "./components/theme-provider";
 import Nav from "./components/Navbar/Nav";
 import ResponsiveNav from "./components/Navbar/ResponsiveNav";
+import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./Helper/ScrollToTop";
 
 
 const font = Inter({
@@ -34,6 +36,8 @@ export default function RootLayout({
        
         <ResponsiveNav/>
         {children}
+        <Footer/>
+        <ScrollToTop/>
         </ThemeProvider>
       </body>
     </html>

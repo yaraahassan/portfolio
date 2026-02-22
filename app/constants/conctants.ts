@@ -128,6 +128,29 @@ export const socialLinks=[
 ]
 
 
+export const footerLinks=[
+    {
+        icon:Github,
+        href:"https://github.com/yaraahassan/",
+        label:"Github"
+    },
+   {
+        icon:Linkedin,
+        href:"https://www.linkedin.com/feed/",
+        label:"LinkedIn"
+    },
+      {
+        icon:Twitter,
+        href:"https://www.twitter.com",
+        label:"Twitter"
+    },
+     {
+        icon:Mail,
+        href:"mailto:yarah8215@gmail.com",
+        label:"Email"
+    }
+
+]
 
 
 
