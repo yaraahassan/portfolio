@@ -26,12 +26,12 @@ import {
 
 export const navLinks=[
     {name:"Home",href:"#"},
-    {name:"About",href:"#"},
-    {name:"Skills",href:"#"},
-    {name:"Projects",href:"#"},
-    {name:"Experience",href:"#"},
-    {name:"Testimonials",href:"#"},
-    {name:"Contact",href:"#"}
+    {name:"About",href:"#about"},
+    {name:"Skills",href:"#skills"},
+    {name:"Projects",href:"#projects"},
+    // {name:"Experience",href:"#"},
+    // {name:"Testimonials",href:"#"},
+    {name:"Contact",href:"#contact"}
 ]
 
 export const skills = [
@@ -62,8 +62,8 @@ export const projects=[
         title:"E-commerce",
         description:"This project is a user interface for an e-commerce web application with interactive components designed to enhance the online shopping experience",
         languages:["HTML","CSS","JavaScript"],
-        demoUrl:"https://example.com",
-        gitUrl:"https://github.com/yaraahassan?tab=repositories"
+        demoUrl:" https://ecommerceshoes.surge.sh/",
+        gitUrl:"https://github.com/yaraahassan/E-commerce/tree/master"
 
     }
     ,
@@ -72,8 +72,8 @@ export const projects=[
         title:"Twitter Clone",
         description:"This project is a responsive Twitter user interface clone This layout is divided into three main sections — Left Sidebar, Main Feed, and Right Sidebar — closely mimicking the modern Twitter design.",
         languages:["HTML","CSS","JavaScript","Tailwind"],
-        demoUrl:"https://example.com",
-        gitUrl:"https://github.com/yaraahassan?tab=repositories"
+        demoUrl:"https://twitter-ui-yara.surge.sh/",
+        gitUrl:"https://github.com/yaraahassan/tailwind_twitter_clone"
 
     }
     ,
@@ -83,7 +83,7 @@ export const projects=[
         description:"TThis project is a fully responsive Airbnb UI clone . It replicates core Airbnb features including property listings and dynamic search filters.",
         languages:["React","Next.js","TypeScript","Tailwind"],
         demoUrl:"https://example.com",
-        gitUrl:"https://github.com/yaraahassan?tab=repositories"
+        gitUrl:"https://github.com/yaraahassan/airbnb"
 
     }
 ]
@@ -95,10 +95,10 @@ export const contacts=[
     href:"mailto:yarah8215@gmail.com"
     },
     
-    {icon:Phone ,
-    label:"Phone",
-    value:"+20 01559323440",
-    href:"tel:+20 01559323440"
+    {icon:Linkedin ,
+    label:"Linkedin",
+    value:"Yara Hassan",
+    href:"https://www.linkedin.com/in/yara-hassan-b63747335/"
     },
     
     {icon:MapPin ,

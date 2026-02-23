@@ -4,6 +4,7 @@ import { projects } from "@/app/constants/conctants"
 
 const Projects = () => {
   return (
+  <section id="projects">
     <div className="py-16 bg-[#f4f4fe] dark:bg-gray-950 ">
         <SectionTitle title_1="Featured" title_2="Projects" desc="A selection of my recent work and side projects"/>
         <div className="py-16 w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -21,6 +22,7 @@ const Projects = () => {
 
         </div>
     </div>
+  </section>
   )
 }
 

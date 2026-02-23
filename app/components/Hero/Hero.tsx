@@ -6,12 +6,12 @@ import { Button } from '../ui/button';
 const Hero = () => {
   return (
     <div className='h-screen w-full flex flex-col justify-center items-center overflow-hidden gap-y-6
-    bg-[radial-gradient(circle_476px_at_54.8%_51.5%,_rgba(168,229,253,1)_0%,_rgba(244,244,254,1)_42.3%,_rgba(244,244,254,1)_100.2%)]
+    bg-[radial-gradient(circle_476px_at_54.8%_51.5%,rgba(168,229,253,1)_0%,rgba(244,244,254,1)_42.3%,rgba(244,244,254,1)_100.2%)]
     dark:bg-none
     dark:bg-gray-950'>
         
         <div data-aos="fade-up" 
-className='mb-4 bg-white text-muted-foreground rounded-xl px-2 py-1 text-xs  sm:px-4 py-3 sm:text-sm font-semibold'>
+className='mb-4 bg-white text-muted-foreground rounded-xl px-2 text-xs  sm:px-4 py-3 sm:text-sm font-semibold'>
                  <span>Available for opportunities</span>
         </div>
 
@@ -33,15 +33,15 @@ className='mb-4 bg-white text-muted-foreground rounded-xl px-2 py-1 text-xs  sm:
             Specialized in responsive, high-performance, and accessible UI.</p>
 
         <div data-aos="fade-up" data-aos-delay="400" className='flex flex-col sm:flex-row  gap-4'>
-            <Button size={"lg"} color={""}  asChild className='w-fit mx-auto ' >
-                <a href='#' >
+            <Button size={"lg"} asChild className='w-fit mx-auto ' >
+                <a href='#projects' >
                 <FolderOpen className='mr-2'/>
                 View Projects
                 </a>
 
             </Button>
              <Button size={"lg"} asChild className='w-fit mx-auto ' >
-                <a href='#' >
+                <a href='https://drive.google.com/file/d/1HNUR_qKf53RAHCw7hnyELe-Iuyti8vW4/view' >
                 <ArrowDown  className='mr-2'/>
                 Download CV
                 </a>
