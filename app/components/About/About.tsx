@@ -3,6 +3,7 @@ import Image from "next/image"
 
 const About = () => {
   return (
+  <section id="about">
     <div className="bg-[#f4f4fe] dark:bg-gray-950 py-16 ">
         <SectionTitle title_1="About" title_2="Me"desc="Get to know the developer behind the code"/>
         <div className="w-[80%] mx-auto grid lg:grid-cols-2 gap-12  items-center pt-16">
@@ -34,6 +35,7 @@ const About = () => {
         </div>
     
     </div>
+  </section>
   )
 }
 

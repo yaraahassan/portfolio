@@ -21,11 +21,11 @@ const Nav = ({openNav}:openNavProps) => {
                 }
                 </div>
                 <div className='flex space-x-4 items-center'>
-                <button className='flex items-center bg-linear-to-r from-[#0096c7] to-[#166088] text-white  font-bold px-8 py-3 rounded-xl   '>
+                <a href="https://drive.google.com/file/d/1HNUR_qKf53RAHCw7hnyELe-Iuyti8vW4/view" className='flex items-center bg-linear-to-r from-[#0096c7] to-[#166088] text-white  font-bold px-8 py-3 rounded-xl   '>
                       <ArrowDown />
                       <span>Download CV</span>
 
-                </button>
+                </a>
                 <ModeToggle/>
                 <MenuIcon onClick={openNav} className='w-8 h-8 hover:cursor-pointer lg:hidden '/>
 

@@ -7,6 +7,7 @@ import { Button } from "../ui/button"
 
 const Contact = () => {
   return (
+  <section id="contact">
     <div className="py-16 bg-[#f4f4fe] dark:bg-gray-950">
       <SectionTitle title_1="Get In" title_2="Touch" desc="Have a project in mind or just want to say hi? I'd love to hear from you."/>
       <div className="w-[80%] mx-auto grid lg:grid-cols-2 gap-12 pt-16">
@@ -94,6 +95,7 @@ const Contact = () => {
           </div>
       </div>
     </div>
+  </section>
   )
 }
 
