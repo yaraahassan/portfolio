@@ -6,7 +6,7 @@ type ProjectCardProps={
     img:string;
     title:string,
     desc:string;
-    lang:string;
+    lang:string[];
     demoUrl:string;
     gitUrl:string;
 }
