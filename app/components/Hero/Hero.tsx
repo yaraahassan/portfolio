@@ -41,7 +41,7 @@ className='mb-4 bg-white text-muted-foreground rounded-xl px-2 text-md  sm:px-4 
 
             </Button>
              <Button size={"lg"} asChild className='w-fit mx-auto ' >
-                <a href='https://drive.google.com/file/d/1HNUR_qKf53RAHCw7hnyELe-Iuyti8vW4/view' >
+                <a href='https://drive.google.com/file/d/1Uu-a6paXQM6YeihG_oFAUS0Jibr2ec4S/view' >
                 <ArrowDown  className='mr-2'/>
                 Download CV
                 </a>

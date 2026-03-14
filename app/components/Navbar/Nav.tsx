@@ -23,7 +23,7 @@ const Nav = ({openNav}:openNavProps) => {
                 <div className='flex space-x-4 items-center'>
                 <a href="https://drive.google.com/file/d/1Uu-a6paXQM6YeihG_oFAUS0Jibr2ec4S/view" className='flex items-center bg-linear-to-r from-[#0096c7] to-[#166088] text-white  font-bold px-8 py-3 rounded-xl   '>
                       <ArrowDown />
-                      <span>Download CV</span>
+                      <span>My CV</span>
 
                 </a>
                 <ModeToggle/>
