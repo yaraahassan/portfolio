@@ -11,11 +11,11 @@ const Hero = () => {
     dark:bg-gray-950'>
         
         <div data-aos="fade-up" 
-className='mb-4 bg-white text-muted-foreground rounded-xl px-2 text-xs  sm:px-4 py-3 sm:text-sm font-semibold'>
+className='mb-4 bg-white text-muted-foreground rounded-xl px-2 text-md  sm:px-4 py-3 sm:text-md font-semibold'>
                  <span>Available for opportunities</span>
         </div>
 
-        <h1 data-aos="fade-up" data-aos-delay="100" className='sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold'>Hi I'm <span className='text-[#166088] dark:text-[#0096c7]'>Yara Hassan</span></h1>
+        <h1 data-aos="fade-up" data-aos-delay="100" className='text-xl md:text-3xl lg:text-4xl xl:text-5xl font-bold'>Hi I'm <span className='text-[#166088] dark:text-[#0096c7]'>Yara Hassan</span></h1>
         <div data-aos="fade-up" data-aos-delay="200">
         <TypeAnimation 
         sequence={[
@@ -26,10 +26,10 @@ className='mb-4 bg-white text-muted-foreground rounded-xl px-2 text-xs  sm:px-4 
         ]}
         wrapper="span"
         speed={50}
-        className='text-sm sm:text-xl md:text-2xl xl:text-3xl inline-block font-bold'
+        className='text-xl  md:text-2xl xl:text-3xl inline-block font-bold'
         repeat={Infinity}/>
         </div>
-        <p data-aos="fade-up" data-aos-delay="300" className='text-xs mb-4 sm:text-lg text-center max-w-xl mx-auto text-gray-500 dark:text-[#D3E0EA]'>turning ideas into modern, interactive websites  
+        <p data-aos="fade-up" data-aos-delay="300" className='text-md mb-4 sm:text-lg text-center max-w-3xl mx-auto text-gray-500 dark:text-[#D3E0EA]'>turning ideas into modern, interactive websites  
             Specialized in responsive, high-performance, and accessible UI.</p>
 
         <div data-aos="fade-up" data-aos-delay="400" className='flex flex-col sm:flex-row  gap-4'>
