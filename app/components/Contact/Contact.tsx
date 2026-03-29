@@ -19,7 +19,9 @@ const Contact = () => {
             </div>
               <div className="py-6">
                 {contacts.map((contact)=>(
-                    <a href={contact.href} className=" hover:scale-105 duration-200  mb-6 p-4 gap-6 rounded-2xl shadow-md flex items-center bg-white dark:bg-gray-800">
+                    <a key={contact.href}
+                    href={contact.href} 
+                    className=" hover:scale-105 duration-200  mb-6 p-4 gap-6 rounded-2xl shadow-md flex items-center bg-white dark:bg-gray-800">
                         <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center 
                         hover:bg-blue-500/20 scale-105 transition-colors duration-200 ">
                           <contact.icon className="text-blue-400 w-6 h-6"/>

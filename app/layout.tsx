@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${font.className}  antialiased`}
+        className={`${font.className}  antialiased overflow-x-hidden`}
       > <ThemeProvider  attribute="class"
             defaultTheme="system"
             enableSystem
